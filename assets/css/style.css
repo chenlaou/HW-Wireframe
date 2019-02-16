@@ -7,35 +7,48 @@
     text-align: center;
     color: white;
     font-family: Arial, Helvetica, sans-serif
-    font-size: 18px;
+    font-size: 20px;
   }
   
   header {
     width: 960px;
-    height: 75px; 
+    height: 100px; 
+    font-size: 18px;
     vertical align: middle;
-    line-height: 75px;
+    line-height: 100px;
     background-color: #ebebeb;
     color: #777;
     margin-top: 25px;
     margin-left: auto;
     margin-right: auto;
     text-align: center;
-    padding: 10px;
-    padding-bottom:20px;
     color: #777;
 
   }
   
  .nav {
-   padding-bottom: 20px;
+  width: 960px;
+  height: 100px; 
+  font-size: 18px;
+  vertical align: middle;
+  line-height: 100px;
+  background-color: #ebebeb;
+  color: #777;
+  margin-top: 10px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 20px;
+  text-align: center;
+  color: #777;
+  padding-bottom: 20px;
  }
 
   .section {
     float: left;
     background-color: #ebebeb;
     width: 495px;
-    margin-left: 190px;
+    margin-left: 200px;
+    font-size: 18px;
     margin-right: auto;
     height: 275px;
     padding: 10px;
@@ -43,23 +56,24 @@
   }
 
   .article {
+    font-size: 18px;
     width: 495px;
-    height: 200px;
+    height: 210px;
     margin-top: 75px;
     text-align: center;
     position: fixed;
-    background-color: red;
-    margin-left: 200px;
+    margin-left: 210px;
     background-color: #777;
   }
 
   .h1 {
     width: 450px;
-    height: 60px;
-    margin-top: 120px;
+    height: 60px;  
+    font-size: 17pt;
+    margin-top: 140px;
     vertical align: middle;
-    line-height: 30px;
-    margin-left: 220px;
+    line-height: 15px;
+    margin-left: 230px;
     text-align: center;
     position: fixed;
     color: #777;
@@ -69,20 +83,21 @@
   .p {
     width: 450px;
     height: 60px;
+    font-size: 18pt;
     vertical align: middle;
-    line-height: 20px;
-    margin-top: 190px;
+    line-height: 10px;
+    margin-top: 210px;
     text-align: center;
     position: fixed;
     color: #777;
     background-color: #ebebeb;
-    margin-left: 220px;
+    margin-left: 230px;
   }
 
   .aside {
     background-color: #ebebeb;
     float: left;
-    width: 425px;
+    width: 405px;
     height: 275px;
     margin-left: 20px;
     padding: 10px; 
@@ -95,18 +110,17 @@
   }
 
   .footer {
-    margin-left: 190px;
+    margin-left: 200px;
     margin-top: 275px;
     position: fixed;
     clear: left;
     text-align: center;
     background-color: #ebebeb;
     width: 960px;
-    height: 90px;
-    padding: 10px;
+    height: 100px;
     color: #777;
     vertical align: middle;
-    line-height: 75px;
+    line-height: 100px;
   }
 
   
